@@ -1,13 +1,23 @@
-﻿# Learning Notes - Day 066
+# Learning Notes — Day 066: Anomaly Detection
 
-Date: 2026-10-08
+**Scheduled date:** 2026-10-08 (planning label; not a claim of completion)
 
-## What I learned
+## Core idea
+Anomaly detection identifies observations that differ from typical patterns. An anomaly is a review candidate, not automatically an error or fraud.
 
-## Important concepts
+## Concepts to remember
+- Define the inputs, outputs, and assumptions before writing code.
+- Keep transformations reproducible and separate data preparation from evaluation.
+- Check shapes, data types, missing values, and edge cases rather than trusting a successful run.
+- Record what the result means and what it does not establish.
 
 ## Implementation observations
+Write down what you observed when you run `solution.py` and the notebook. Include actual output, not an expected result copied without checking.
 
 ## Errors and solutions
+Record errors you encounter, the cause, and the fix. Do not delete useful debugging notes.
 
 ## Further exploration
+- Change one parameter or input and compare the result.
+- Explain the behavior in your own words.
+- Identify one limitation of this technique.

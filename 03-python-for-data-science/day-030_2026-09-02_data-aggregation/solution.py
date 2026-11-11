@@ -1,11 +1,12 @@
-﻿"""
-Day 030 - data-aggregation
-Scheduled Date: 2026-09-02
+"""Day 030: Data Aggregation
+
+Reference solution for the 100 Days of Machine Learning learning plan.
+Scheduled date in folder: 2026-09-02. This file is populated now; it does not
+assert that this work was completed on the scheduled date.
 """
 
-def main():
-    print("Day 030 - data-aggregation")
-    print("Start implementing your learning here.")
+import pandas as pd
 
-if __name__ == "__main__":
-    main()
+sales = pd.DataFrame({"region": ["North", "South", "North", "West", "South"], "revenue": [1200, 900, 800, 1500, 1100], "orders": [4, 3, 2, 5, 4]})
+summary = sales.groupby("region").agg(total_revenue=("revenue", "sum"), orders=("orders", "sum"), average_order_value=("revenue", "mean"))
+print(summary.sort_values("total_revenue", ascending=False))

@@ -1,35 +1,35 @@
-﻿# Day 094 - eda
+# Day 094 — EDA
 
-**Scheduled Date:** 2026-11-05
-**Status:** Not Started
+**Scheduled date:** 2026-11-05
+**Track:** Final Projects
+**Status:** Ready for practice — not marked complete automatically
 
-## Learning Objective
+## Learning objective
+Project EDA checks data quality, class balance, distributions, feature relationships, and possible leakage before model selection.
 
-Understand and implement eda.
+## Concepts covered
+- Understand the core concept and its assumptions.
+- Implement a small reproducible example.
+- Interpret output and test edge cases.
 
-## Concepts Covered
+## Practical work
+1. Read `notes.md`.
+2. Attempt the task in `exercises.md`.
+3. Run `solution.py` from this folder.
+4. Open `notebook.ipynb` and execute the cells in order.
+5. Record your own observations and errors in `notes.md`.
 
-- Add concepts here.
+## Files
+- `solution.py` — runnable reference implementation.
+- `notebook.ipynb` — explanation and executable notebook version.
+- `exercises.md` — practice task and completion checklist.
+- `notes.md` — your personal learning log.
 
-## Practical Implementation
+## Run
+From this folder, run `python solution.py`. Some days require the packages listed in the repository's `requirements.txt`.
 
-See solution.py and notebook.ipynb.
-
-## Key Learnings
-
-Document your understanding.
-
-## Resources
-
-Add documentation and learning links.
-
-## Results
-
-Add actual outputs and observations.
-
-## Completion Checklist
-
-- [ ] Theory completed
-- [ ] Implementation completed
-- [ ] Testing completed
-- [ ] Documentation completed
+## Completion criteria
+- [ ] I attempted the exercise before checking the solution.
+- [ ] The script and notebook run successfully.
+- [ ] I can explain the result.
+- [ ] I added my own notes and at least one modification.

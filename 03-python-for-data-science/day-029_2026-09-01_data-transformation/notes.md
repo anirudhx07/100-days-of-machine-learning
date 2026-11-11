@@ -1,13 +1,23 @@
-﻿# Learning Notes - Day 029
+# Learning Notes — Day 029: Data Transformation
 
-Date: 2026-09-01
+**Scheduled date:** 2026-09-01 (planning label; not a claim of completion)
 
-## What I learned
+## Core idea
+Transformation creates analysis-ready variables, for example parsing dates, normalizing text, or deriving month and weekday from timestamps.
 
-## Important concepts
+## Concepts to remember
+- Define the inputs, outputs, and assumptions before writing code.
+- Keep transformations reproducible and separate data preparation from evaluation.
+- Check shapes, data types, missing values, and edge cases rather than trusting a successful run.
+- Record what the result means and what it does not establish.
 
 ## Implementation observations
+Write down what you observed when you run `solution.py` and the notebook. Include actual output, not an expected result copied without checking.
 
 ## Errors and solutions
+Record errors you encounter, the cause, and the fix. Do not delete useful debugging notes.
 
 ## Further exploration
+- Change one parameter or input and compare the result.
+- Explain the behavior in your own words.
+- Identify one limitation of this technique.

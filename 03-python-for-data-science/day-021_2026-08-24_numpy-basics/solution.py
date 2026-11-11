@@ -1,11 +1,14 @@
-﻿"""
-Day 021 - numpy-basics
-Scheduled Date: 2026-08-24
+"""Day 021: NumPy Basics
+
+Reference solution for the 100 Days of Machine Learning learning plan.
+Scheduled date in folder: 2026-08-24. This file is populated now; it does not
+assert that this work was completed on the scheduled date.
 """
 
-def main():
-    print("Day 021 - numpy-basics")
-    print("Start implementing your learning here.")
+import numpy as np
 
-if __name__ == "__main__":
-    main()
+values = [2, 4, 6, 8]
+arr = np.array(values)
+print("Array:", arr)
+print("dtype:", arr.dtype, "shape:", arr.shape, "size:", arr.size, "ndim:", arr.ndim)
+print("Doubled:", arr * 2)

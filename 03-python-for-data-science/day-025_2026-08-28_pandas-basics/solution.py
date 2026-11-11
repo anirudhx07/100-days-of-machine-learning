@@ -1,11 +1,14 @@
-﻿"""
-Day 025 - pandas-basics
-Scheduled Date: 2026-08-28
+"""Day 025: Pandas Basics
+
+Reference solution for the 100 Days of Machine Learning learning plan.
+Scheduled date in folder: 2026-08-28. This file is populated now; it does not
+assert that this work was completed on the scheduled date.
 """
 
-def main():
-    print("Day 025 - pandas-basics")
-    print("Start implementing your learning here.")
+import pandas as pd
 
-if __name__ == "__main__":
-    main()
+scores = pd.Series([82, 91, 76], index=["Asha", "Kabir", "Mira"], name="score")
+print(scores)
+print("Kabir by label:", scores.loc["Kabir"])
+print("First value by position:", scores.iloc[0])
+print("Average:", scores.mean())
