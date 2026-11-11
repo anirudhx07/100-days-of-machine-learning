@@ -1,36 +1,25 @@
 
-# Contributing Guidelines
+# Contribution Activity Tracker
 
-Thank you for your interest in improving this repository!
+## Purpose
 
-## How to Contribute
+Track genuine development activity throughout
+the 100 Days of Machine Learning challenge.
 
-1. Fork the repository.
-2. Clone your fork.
-3. Create a feature branch.
-4. Improve an explanation or implementation.
-5. Test your changes.
-6. Submit a pull request.
+## Rules
 
-## Coding Standards
+1. Record work only when it is actually completed.
+2. Avoid empty commits.
+3. Do not fabricate historical activity.
+4. Skip days without meaningful development.
+5. Document completed exercises and experiments.
 
-- Use readable Python code.
-- Include meaningful comments.
-- Explain important concepts.
-- Test implementations before submission.
-- Cite external learning resources.
+## Daily Activity
 
-## Commit Convention
+| Date | Day | Activity | Status |
+|---|---|---|---|
+| 2026-11-11 | 001 | Python Revision | Pending |
+| 2026-11-12 | 002 | Variables and Data Types | Pending |
+| 2026-11-13 | 003 | Operators | Pending |
 
-Use descriptive commit messages:
-
-- feat: add new implementation
-- docs: update learning notes
-- fix: correct a bug
-- test: add test cases
-- refactor: improve code structure
-
-## Important
-
-Contributions should improve learning quality,
-technical accuracy or code readability.
+Update this table as work is completed.
