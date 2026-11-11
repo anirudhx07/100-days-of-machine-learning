@@ -1,10 +1,14 @@
+
 param(
-    [string]$Message = "Update machine learning progress"
+    [Parameter(Mandatory = $true)]
+    [string]$Message
 )
+
+$ErrorActionPreference = "Stop"
 
 git add .
 
-$changes = git diff --cached --quiet
+git diff --cached --quiet
 
 if ($LASTEXITCODE -eq 0) {
     Write-Host "No changes to commit."
@@ -14,7 +18,13 @@ if ($LASTEXITCODE -eq 0) {
 git commit -m $Message
 
 if ($LASTEXITCODE -ne 0) {
-    exit 1
+    throw "Commit failed."
 }
 
 git push origin main
+
+if ($LASTEXITCODE -ne 0) {
+    throw "Push failed."
+}
+
+Write-Host "Successfully published your changes!"
